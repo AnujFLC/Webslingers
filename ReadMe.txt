@@ -1,1 +1,1 @@
-Hello World.  This is a temperature convertor website made using HTML,CSS and Javascript.
+Hello World!
