@@ -1,0 +1,31 @@
+body{
+    font-family: 'Audiowide', cursive;
+}
+
+.container{
+    margin-top: 7%;
+}
+
+.card{
+    padding: 7%
+}
+.card,.form-control,.form-select,.input-group-text,.calculateBtn,option{
+    background-color: rgba(216, 221, 216, 0.726); background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 07px );
+    border-radius: 70px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.calculateBtn{
+    color: #000;
+}
+
+#default,#twf,#thf,#zero,#one,#fif,#hundred{
+position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
