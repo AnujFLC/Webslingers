@@ -61,3 +61,35 @@ function calculateResult(e){
         }
     e.preventDefault();
 };
+
+function UIresultOutput(){
+    UIcelsius.value = celsius;
+    UIfahrenheit.value = fahrenheit;
+    UIkelvin.value = kelvin;
+    if(celsius >= 100){
+        j100.style.display = 'block';
+        j55.style.display = 'none';
+        j35.style.display = 'none';
+        j25.style.display = 'none';
+        jd.style.display = 'none';
+        j0.style.display = 'none';
+        j1.style.display = 'none';
+    }
+   else if(celsius >= 55  &&  celsius <= 99){
+    j100.style.display = 'none';
+    j55.style.display = 'block';
+    j35.style.display = 'none';
+    j25.style.display = 'none';
+    jd.style.display = 'none';
+    j0.style.display = 'none';
+    j1.style.display = 'none';
+    }
+    else if(celsius >= 35  &&  celsius <= 54){
+        j100.style.display = 'none';
+        j55.style.display = 'none';
+        j35.style.display = 'block';
+        j25.style.display = 'none';
+        jd.style.display = 'none';
+        j0.style.display = 'none';
+        j1.style.display = 'none';
+        }
