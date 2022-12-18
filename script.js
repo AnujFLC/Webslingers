@@ -93,3 +93,37 @@ function UIresultOutput(){
         j0.style.display = 'none';
         j1.style.display = 'none';
         }
+        else if(celsius >= 25  &&  celsius <= 34){
+            j100.style.display = 'none';
+            j55.style.display = 'none';
+            j35.style.display = 'none';
+            j25.style.display = 'block';
+            jd.style.display = 'none';
+            j0.style.display = 'none';
+            j1.style.display = 'none';
+            }
+
+            else if(celsius >= 1  &&  celsius <= 24){
+                j100.style.display = 'none';
+                j55.style.display = 'none';
+                j35.style.display = 'none';
+                j25.style.display = 'none';
+                jd.style.display = 'none';
+                j0.style.display = 'none';
+                j1.style.display = 'block';
+                }
+              else {
+                j100.style.display = 'none';
+                j55.style.display = 'none';
+                j35.style.display = 'none';
+                j25.style.display = 'none';
+                jd.style.display = 'none';
+                j0.style.display = 'block';
+                j1.style.display = 'none';
+    }
+
+    //clear Input
+    UIinputValue.value = '';
+    UIinputValueUnit.value = '';
+
+}    
