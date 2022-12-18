@@ -20,3 +20,11 @@ const j100 = document.querySelector('#hundred');
         one.style.display = 'none';
         hundred.style.display = 'none';
 
+//Defining Calculating elements
+const calculateBtn = document.querySelector('.calculateBtn');
+const temperatureUnit = document.querySelector('#tempUnit');
+
+//Listen for value when calculated clicked
+calculateBtn.addEventListener('click',calculateResult);
+//Listen for value when option is clicked
+temperatureUnit.addEventListener('click',changeUIUnit);
