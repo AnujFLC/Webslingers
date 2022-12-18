@@ -24,11 +24,8 @@ const j100 = document.querySelector('#hundred');
 const calculateBtn = document.querySelector('.calculateBtn');
 const temperatureUnit = document.querySelector('#tempUnit');
 
-//Listen for value when calculated clicked
 calculateBtn.addEventListener('click',calculateResult);
-//Listen for value when option is clicked
 temperatureUnit.addEventListener('click',changeUIUnit);
-//Calculate function
 function calculateResult(e){
     //getting the input value
     let inputNumber = parseInt(UIinputValue.value);
@@ -36,7 +33,6 @@ function calculateResult(e){
     //getting the values from option
     let optionValue = (temperatureUnit.options[temperatureUnit.selectedIndex].text).toLowerCase();
 
-    //Checking the input and assigning if statement according to that
     if(optionValue == "select your desire temperature unit" || isNaN(inputNumber)){
        alert('Please Enter Both Number / Temperature Value');
 
