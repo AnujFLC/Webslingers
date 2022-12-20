@@ -58,6 +58,19 @@ function calculateResult(e){
     e.preventDefault();
 };
 
+function changeUIUnit(){
+    let UIoptionValue = (temperatureUnit.options[temperatureUnit.selectedIndex].text).toLowerCase();
+        if(UIoptionValue == 'celsius'){
+            UIinputValueUnit.innerHTML ='&deg;C';
+        }
+        if(UIoptionValue == 'fahrenheit'){
+            UIinputValueUnit.innerHTML ='&deg;F';
+        }
+        if(UIoptionValue == 'kelvin'){
+            UIinputValueUnit.innerHTML ='&deg;K';
+        }
+}
+
 function UIresultOutput(){
     UIcelsius.value = celsius;
     UIfahrenheit.value = fahrenheit;
