@@ -47,6 +47,13 @@ body{
     background-color: #24232345;
 }
 
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
+
 .container{
     margin-top: 7%;
 }
