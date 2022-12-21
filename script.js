@@ -67,7 +67,7 @@ function changeUIUnit(){
             UIinputValueUnit.innerHTML ='&deg;F';
         }
         if(UIoptionValue == 'kelvin'){
-            UIinputValueUnit.innerHTML ='&deg;K';
+            UIinputValueUnit.innerHTML ='K';
         }
 }
 
