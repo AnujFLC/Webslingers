@@ -1,5 +1,57 @@
 body{
-    font-family: 'Audiowide', cursive;
+    font-family: cursive;
+}
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: rgba(216, 221, 216, 0.726);
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(07px);
+    border-radius: 70px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 31px;
+    height: auto;
+    margin-top: -75px;
+    padding: 0px 0px;
+
+
+}
+
+
+.navbar img {
+    width: 48px;
+    height: auto;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 12px;
+    width: 200px;
+
+}
+
+.navbar a:hover {
+    background-color: rgba(160, 160, 160, 0.822);
+}
+
+.active {
+    background-color: #24232345;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
 }
 
 .container{
