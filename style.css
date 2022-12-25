@@ -10,12 +10,11 @@ body{
     backdrop-filter: blur(7px);
     -webkit-backdrop-filter: blur(07px);
     border-radius: 70px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
     overflow: auto;
     border-radius: 10px;
     margin-bottom: 31px;
     height: auto;
-    margin-top: -75px;
+    margin-top: -50px;
     padding: 0px 0px;
 
 
